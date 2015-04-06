@@ -7,9 +7,9 @@ set -e -x
 #  --hbase-version - an alternative HBase Verison path to use, default /home/hadoop/.versions/<$HBASE_VERSION>/
 
 PRODUCTNAME=phoenix
-VERSION=2.1.2
-DOWNLOAD_LOCATION=http://s3.amazonaws.com/elasticmapreduce/bootstrap-actions/$PRODUCTNAME/$VERSION/
-HBASE_VERSION=hbase-0.94.7
+VERSION=3.4.6
+DOWNLOAD_LOCATION=http://xplan-resources.s3-website-sa-east-1.amazonaws.com/$PRODUCTNAME/$VERSION/
+HBASE_VERSION=hbase-0.94.18
 
 
 INSTALL_DIR=/home/hadoop/.versions/$HBASE_VERSION/lib/
