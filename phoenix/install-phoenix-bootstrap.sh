@@ -7,7 +7,7 @@ set -e -x
 #  --hbase-version - an alternative HBase Verison path to use, default /home/hadoop/.versions/<$HBASE_VERSION>/
 
 PRODUCTNAME=phoenix
-VERSION=3.4.6
+VERSION=4.3.0
 DOWNLOAD_LOCATION=http://xplan-resources.s3-website-sa-east-1.amazonaws.com/$PRODUCTNAME/$VERSION/
 HBASE_VERSION=hbase-0.94.18
 
